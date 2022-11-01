@@ -1,14 +1,25 @@
 #grid-container {
-    margin: auto;
+    margin: 50px auto;
     display: grid;
     /* gap: 1px; */
-    width: min-content;
+    width: 480px;
+    height: 480px;
+
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px auto;
+}
+
+#button, #reset {
+    
 }
 
 .item-column {
     background-color: rgb(44, 44, 44);
-    text-align: center;
-    padding: 5px;
     transition-duration: 0.2s;
 }
 
