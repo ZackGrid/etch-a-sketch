@@ -1,0 +1,22 @@
+#grid-container {
+    margin: auto;
+    display: grid;
+    /* gap: 1px; */
+    width: min-content;
+}
+
+.item-column {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 5px;
+    transition-duration: 0.2s;
+}
+
+#grid-container > div:hover {
+    background-color: rgb(0, 116, 116);
+}
+
+.trans {
+    background-color: rgb(106, 212, 212);
+}
+
